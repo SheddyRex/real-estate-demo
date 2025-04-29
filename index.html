@@ -3,70 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SheddyProps Real Estate</title>
+  <title>My Real Time Genius</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-
   <header>
-    <div class="container">
-      <h1>SheddyProps Real Estate</h1>
-      <p>Your dream property is just a click away</p>
-    </div>
-  </header>
-
-  <nav>
-    <div class="container">
+    <h1>Welcome to My Real Time Genius</h1>
+    <nav>
       <a href="#about">About</a>
       <a href="#properties">Properties</a>
       <a href="#contact">Contact</a>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <div class="container">
-      <h2>About SheddyProps</h2>
-      <p>I help clients find, buy, and rent properties with ease. With over 5 years of experience in Lagos property markets, my goal is to deliver value, trust, and results.</p>
+      <h2>About Me</h2>
+      <p>Hi, I'm Sheddy Rex — a facility-savvy estate manager and web developer. I help clients find, showcase, and manage real estate properties smartly and beautifully.</p>
     </div>
   </section>
 
-  <section id="properties">
+  <section id="properties" data-aos="fade-up">
     <div class="container">
       <h2>Available Properties</h2>
       <div class="property-grid">
         <div class="property-card">
-          <img src="images/house1.jpg" alt="3 Bedroom in Lekki"/>
-          <h3>3 Bedroom in Lekki</h3>
-          <p>₦45,000,000 • Fully Detached • Parking • Security</p>
+          <img src="images/house1.jpg" alt="Property 1">
+          <h3>3 Bedroom Bungalow</h3>
+          <p>Located in Lekki Phase 1. N180M.</p>
         </div>
         <div class="property-card">
-          <img src="images/flat1.jpg" alt="2 Bedroom Flat in Surulere"/>
-          <h3>2 Bedroom Flat in Surulere</h3>
-          <p>₦1,200,000/year • Good road • Water & Light</p>
+          <img src="images/flat1.jpg" alt="Property 2">
+          <h3>Luxury Duplex</h3>
+          <p>Gated estate with swimming pool. N250M.</p>
         </div>
         <div class="property-card">
-          <img src="images/duplex.jpg" alt="Luxury Duplex in Ikeja"/>
-          <h3>Luxury Duplex in Ikeja</h3>
-          <p>₦90,000,000 • 5 Bedrooms • BQ • AC fitted</p>
+          <img src="images/duplex.jpg" alt="Property 3">
+          <h3>Studio Apartment</h3>
+          <p>Affordable, cozy unit in Ajah. N65M.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" data-aos="fade-up">
     <div class="container">
       <h2>Contact Me</h2>
-      <p>Ready to book an inspection or have a question?</p>
+      <p>Ready to book an inspection or have a question? Reach out!</p>
       <a href="https://wa.me/2348068448435" target="_blank" class="whatsapp-button">Chat on WhatsApp</a>
+
+      <form action="https://formspree.io/f/mrbqeqlv" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="whatsapp-button">Send Message</button>
+      </form>
     </div>
   </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025  SheddyProps Real Estate. All rights reserved.</p>
-    </div>
-  </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
-
